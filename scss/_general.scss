@@ -1,0 +1,64 @@
+@import "colores";
+
+html {font-size: 62.5%;}
+
+body {
+  background-image: url("../assets/images/FONDO.jpg"); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.sombraTxt {text-shadow: 1px 1px 10px black;}
+.sombraCont {box-shadow: 1px 1px 10px black;}
+
+.nav--sticky {position: sticky !important; top: 0px !important; z-index: 999;}
+
+.footer--background {
+  background-color: $negro;
+}
+
+.index__background {
+  background: rgb(10,10,10);
+  background: linear-gradient(0deg, rgba(10,10,10,0.30) 0%, rgba(10,10,10,1) 100%);
+}
+
+.shows__background {
+  background: rgb(10,10,10);
+  background: linear-gradient(0deg, rgba(10,10,10,0.30) 0%, rgba(10,10,10,1) 100%);
+}
+
+.biografia__background {
+  background: rgba(10,10,10,0.75);
+}
+
+.e-shop__carrito--background {
+  background: rgba(255,255,255, 0.75);
+}
+
+.e-shop__background {
+  background: rgb(10,10,10);
+  background: linear-gradient(0deg, rgba(10,10,10,0.30) 0%, rgba(10,10,10,1) 100%);
+}
+
+.e-shop__card--background {
+  background: rgba(255,255,255, 0.25);
+}
+
+.contacto__background {
+  background: rgb(10,10,10);
+  background: linear-gradient(0deg, rgba(10,10,10,0.30) 0%, rgba(10,10,10,1) 100%);
+}
+
+.discografia__background {
+  background: rgb(10,10,10);
+  background: linear-gradient(0deg, rgba(10,10,10,0.30) 0%, rgba(10,10,10,1) 100%);
+}
+
+.hidden-mobile {
+  @media only screen and (max-width:  767px) {
+    visibility:hidden;
+  }  
+}
+

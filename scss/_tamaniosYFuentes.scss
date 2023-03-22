@@ -1,0 +1,347 @@
+$fuenteA: Lexend;
+$fuenteB: Rock Salt;
+
+$t1: 7rem;
+$t2: 5rem;
+$t3: 3rem;
+$t4: 1rem;
+
+$thin: 100;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semiBold: 600;
+$bold:700;
+$extraBold: 800;
+
+strong {
+	font-weight: $extraBold;
+}
+
+.td-none:hover {
+	text-decoration: none;
+}
+
+.nav__h1 {
+	font-family: $fuenteB;
+	font-size: $t3;
+	color: $negro;
+}
+
+a {
+	font-family: $fuenteA;
+	font-size: $t3 - 0.5;
+	font-weight: $medium;
+}
+
+h1 {
+	font-family: $fuenteB;
+	font-size: $t2 - 1;
+	color: $celeste;
+	text-align: center;
+}
+
+h3 {
+	font-family: $fuenteA;
+	font-size: $t3;
+	font-weight: $medium;
+	color: $celeste;
+	text-align: left;
+}
+
+li {
+	list-style-type: none;
+	font-family: $fuenteA;
+	font-size: $t3 - 0.5;
+	font-weight: $light;
+	color: $blanco;
+	text-align: left;
+}
+
+p {
+	font-family: $fuenteA;
+	font-size: $t4 + 1;
+	font-weight: $light;
+	color: $blanco;
+	text-align: center;
+}
+
+.carousel__titulo {
+	font-family: $fuenteA;
+	font-size: $t3;
+	font-weight: $medium;
+	color: $blanco;
+	text-align: center;
+}
+
+.carousel__subtitulo {
+	font-family: $fuenteA;
+	font-size: $t3 - 1;
+	font-weight: $light;
+	color: $blanco;
+	text-align: center;
+}
+
+.contenido__txt {
+	font-family: $fuenteA;
+	font-size: $t4 + 1;
+	font-weight: $light;
+	color: $blanco;
+	text-align: left;
+}
+
+.footer__redes {
+	font-family: $fuenteA;
+	font-size: $t3 - 1;
+	font-weight: $thin;
+	color: $blanco;
+	text-align: center;
+}
+
+.footer__copy--tyf {
+	font-family: $fuenteA;
+	font-size: $t4;
+	font-weight: $light;
+	color: $blanco;
+	text-align: center;
+}
+
+// index
+
+.novedades__titulo--tyf {
+	font-family: $fuenteA;
+	font-size: $t3;
+	font-weight: $light;
+	color: $celeste;
+	text-align: left;	
+}
+
+.novedades__p--tyf {
+	font-family: $fuenteA;
+	font-size: $t4 + 1;
+	font-weight: $light;
+	color: $blanco;
+	text-align: left;
+	text-decoration: none;
+}
+
+// E-Shop
+
+.e-shop__cardTitle--tyf {
+	font-family: $fuenteA;
+	font-size: $t3;
+	font-weight: $medium;
+	color: $celeste;
+	text-align: left;
+}
+
+.e-shop__cardP--tyf {
+	font-family: $fuenteA;
+	font-size: $t4 + 0.5;
+	font-weight: $light;
+	color: $blanco;
+	text-align: left;
+}
+
+.e-shop__cardP--btn {
+	font-family: $fuenteA;
+	font-size: $t4 + 0.5;
+	font-weight: $regular;
+	color: $blanco;
+	text-align: center;
+	background-color: $celeste;
+}
+
+.e-shop__cardP--btn:hover {
+	font-family: $fuenteA;
+	font-size: $t4 + 0.5;
+	font-weight: $regular;
+	color: $blanco;
+	text-align: center;
+	background-color: $celeste;
+	text-decoration: none;
+}
+
+.e-shop__productoCarrito--tyf {
+	font-family: $fuenteA;
+	font-size: $t4 + 1;
+	font-weight: $regular;
+	color: $negro;
+	text-align: left;
+}
+
+.e-shop__spanCarrito--tyf {
+	font-family: $fuenteA;
+	font-size: $t4 + 0.25;
+	font-weight: $light;
+	color: $negro;
+	text-align: center;
+}
+
+.e-shop__productoCarrito--tyf {
+	font-family: $fuenteA;
+	font-size: $t4 + 1.50;
+	font-weight: $medium;
+	color: $negro;
+	text-align: center;
+}
+
+.e-shop__totalCarrito--tyf {
+	font-family: $fuenteA;
+	font-size: $t3;
+	font-weight: $medium;
+	color: $negro;
+	text-align: center;
+}
+
+.e-shop__comprarCarrito--tyf {
+	font-family: $fuenteA;
+	font-size: $t4 + 0.5;
+	font-weight: $regular;
+	color: $white;
+	text-align: center;
+}
+
+.e-shop__comprarCarrito--tyf:hover {
+	font-family: $fuenteA;
+	font-size: $t4 + 0.5;
+	font-weight: $regular;
+	color: $white;
+	text-align: center;
+}
+
+// discografía
+
+.disco__discoTitulo--tyf {
+	font-family: $fuenteA;
+	font-size: $t3;
+	font-weight: $medium;
+	color: $celeste;
+	text-align: center;
+}
+
+.disco__cancionTitulo--tyf {
+	list-style-type: none;
+	font-family: $fuenteA;
+	font-size: $t3 - 0.5;
+	font-weight: $light;
+	color: $blanco;
+	text-align: left;
+}
+
+.disco__letra--close {
+	float: right;
+	font-size: $t3;
+	font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: none;
+}
+
+.disco__descripcion-tyf {
+	font-family: $fuenteA;
+	font-size: $t4 + 0.5;
+	font-weight: $thin;
+	color: $blanco;
+	text-align: center;
+}
+
+.disco__letra--tyf {
+	font-family: $fuenteA;
+	font-size: $t4 + 1;
+	font-weight: $light;
+	color: $blanco;
+	text-align: left;
+}
+
+.disco__tituloLetra--tyf {
+	font-family: $fuenteB;
+	font-size: $t3;
+	color: $negro;
+	text-align: left;
+}
+
+.disco__letraBoton--tyf {
+	font-family: $fuenteA;
+	font-size: $t4 + 0.5;
+	font-weight: $thin;
+	color: $blanco;
+	text-align: center;
+}
+
+// biografía
+
+.biografia__parrafo--tyf {
+	font-family: $fuenteA;
+	font-size: $t4 + 1;
+	font-weight: $light;
+	color: $blanco;
+	text-align: left;
+}
+
+.biografia__subtitulo--tyf {
+	font-family: $fuenteA;
+	font-size: $t3;
+	font-weight: $regular;
+	color: $celeste;
+	text-align: left;
+}
+
+.biografia__sectionSubtitulo--tyf {
+	font-family: $fuenteA;
+	font-size: $t3 + 1;
+	font-weight: $medium;
+	color: $celeste;
+	text-align: left;
+}
+
+// contacto
+
+.formulario__label--tyf {
+	font-family: $fuenteA;
+	font-size: $t3;
+	font-weight: $regular;
+	color: $celeste;
+	text-align: left;
+}
+
+.formulario__input--tyf {
+	font-family: $fuenteA;
+	font-size: $t4 + 1;
+	font-weight: $light;
+	color: $negro;
+	text-align: left;
+}
+
+.formulario__btn--tyf {
+	font-size: $t4 + 1;
+}
+
+// shows
+
+.shows__titulo--tyf {
+	font-family: $fuenteA;
+	font-size: $t3;
+	font-weight: $medium;
+	color: $celeste;
+	text-align: center;
+}
+
+.shows__entradas--tyf {
+	font-family: $fuenteA;
+	font-size: $t4 + 0.5;
+	font-weight: $regular;
+	color: $blanco;
+	text-align: center;
+	background-color: $celeste;
+}
+
+.shows__entradas--tyf:hover {
+	font-family: $fuenteA;
+	font-size: $t4 + 0.5;
+	font-weight: $regular;
+	color: $blanco;
+	text-align: center;
+	background-color: $celeste;
+	text-decoration: none;
+}

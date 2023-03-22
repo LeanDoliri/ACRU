@@ -1,0 +1,42 @@
+.bB {
+	border-bottom: solid 2px $celeste;
+}
+
+.li--bB {
+	border-bottom: solid 1px gray;
+}
+
+.nav--border {
+	border-bottom: solid 2px $negro;
+}
+
+.contenido__img--border {
+	border: solid 2px $magenta;
+}
+
+@media only screen and (min-width: 1024px) {
+	.img-crop {
+		width: 100%;
+		height: 425px;
+		object-fit: none;
+	}
+}
+// discografía
+
+.disco__letra--bm {
+	background-color: $negro;
+}
+
+.disco__tituloLetra--bm {
+	background-color: $celeste;
+}
+
+.disco__letraBoton--bm {
+	background-color: $celeste;
+	border: none;
+}
+
+//E-Shop
+.e-shop__card--border{
+	border: solid 2px $magenta;
+}
